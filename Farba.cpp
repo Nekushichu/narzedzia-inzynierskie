@@ -66,7 +66,7 @@ switch(liczba_elementow){
 Ile_litrow_farby=powierzchnia_do_pomalowania/wydajnosc_farby;
 ile_puszek_farby=Ile_litrow_farby/pojemnosc_puszki_farby;
 
-cout<<round(ile_puszek_farby)<<endl;
+cout<<"Do pomalowania pomieszczenia potrzeba"<<round(ile_puszek_farby)<<"puszek farby"<<endl;
 
 
     return 0;
